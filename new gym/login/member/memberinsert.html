@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<head>
+<title>Insert data to PostgreSQL with php - creating a simple web application</title>
+<style>
+body{
+background:lightblue url("img3.png") /*no-repeat fixed center*/;
+}
+</style>
+
+</head>
+<body>
+<center>
+<h2>Enter Information Regarding Members</h2>
+<br>
+<table>
+<form name="insert" action="member_insert.php" method="POST" >
+<tr>
+<td><b>Member ID:</td>
+<td><input type="text" name="member_id" /></td>
+</tr>
+<tr>
+<td><b>Member Name:</td>
+<td><input type="text" name="member_name" /></td>
+</tr>
+<tr>
+<td><b>Email:</td>
+<td><input type="text" name="email" /></td>
+</tr>
+<tr>
+<td><b>Contact:</td>
+<td><input type="text" name="contact" /></td>
+</tr>
+<br>
+<tr>
+<td><input type="submit" /></td>
+</tr>
+</form>
+</ul>
+</center>
+</body>
+</html>
