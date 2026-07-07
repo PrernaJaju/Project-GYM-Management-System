@@ -1,4 +1,4 @@
-Polished Gym Management System Starter
+Gym Management System Starter
 
 Features:
 - Admin Sidebar
